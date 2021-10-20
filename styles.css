@@ -1,0 +1,47 @@
+body {
+    background: url(images/pattern-background-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.container {
+    margin-top: 80px;
+    background-color: white;
+    padding: 0px;
+    width: 400px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    align-content: center;
+}
+
+.hero{
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+.cancel {
+    border: none;
+    background-color: white;
+    margin: 10px 10px 20px 10px;
+}
+
+.content {
+    font-size: 16px;
+    align-items: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
