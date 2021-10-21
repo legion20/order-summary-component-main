@@ -1,6 +1,6 @@
 body {
     background: url(images/pattern-background-desktop.svg) no-repeat;
-    background-size: cover;
+    background-size: 100% 400px;
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -16,6 +16,15 @@ body {
     grid-template-columns: 1fr;
     grid-gap: 15px;
     align-content: center;
+    color: hsl(224, 23%, 55%);
+}
+
+.os {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.6em;
+    margin-top: 20px;
+    color: hsl(223, 47%, 23%);;
 }
 
 .hero{
@@ -24,12 +33,21 @@ body {
     border-top-right-radius: 20px;
 }
 
-
+.btn {
+    background-color: hsl(245, 75%, 52%);
+    margin: 5px 40px;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 10px 0px;
+    font-weight: 700;
+}
 
 .cancel {
     border: none;
     background-color: white;
-    margin: 10px 10px 20px 10px;
+    margin: 5px 10px 40px 10px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
 }
 
 .content {
