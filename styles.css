@@ -24,13 +24,46 @@ body {
     font-weight: 900;
     font-size: 1.6em;
     margin-top: 20px;
-    color: hsl(223, 47%, 23%);;
+    color: hsl(223, 47%, 23%);
 }
 
 .hero{
     width: 400px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.para {
+    margin: 3px 20px;
+    text-align: center;
+}
+
+.plan {
+    background-color: hsl(225, 100%, 94%, 0.3);
+    margin: 5px 40px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.annual {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);;
+}
+
+.ap {
+    margin-left: 20px;
+}
+
+.ap > p {
+    margin: 0px;
+}
+
+.plan > a {
+    text-align: center;
+    margin: auto 0px;
 }
 
 .btn {
@@ -42,10 +75,14 @@ body {
     font-weight: 700;
 }
 
+.btn-primary {
+    box-shadow: 5px 15px 10px hsl(225, 100%, 94%);
+}
+
 .cancel {
     border: none;
     background-color: white;
-    margin: 5px 10px 40px 10px;
+    margin: 0px 10px 30px 10px;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
 }
